@@ -1,0 +1,18 @@
+{
+  "name": "@ph20sr/command-palette",
+  "version": "1.0.0",
+  "description": "Paleta de comandos Ctrl/⌘+K como Web Component: busca fuzzy sem acentos, acessível, com recentes e tema claro/escuro. Zero dependências.",
+  "type": "module",
+  "exports": {
+    ".": "./src/command-palette.js",
+    "./fuzzy": "./src/fuzzy.js"
+  },
+  "files": ["src"],
+  "scripts": {
+    "test": "node --test",
+    "demo": "node scripts/serve.js 5173"
+  },
+  "engines": { "node": ">=20" },
+  "keywords": ["command-palette", "cmdk", "ctrl-k", "web-component", "fuzzy-search", "a11y"],
+  "license": "MIT"
+}
