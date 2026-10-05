@@ -4,7 +4,7 @@
 ![zero dependencies](https://img.shields.io/badge/dependencies-0-brightgreen)
 ![license](https://img.shields.io/badge/license-MIT-blue)
 
-Paleta de comandos **Ctrl/⌘ + K** como Web Component. Funciona em qualquer stack (React, Vue, Next.js, PHP, HTML puro), sem dependências e em ~8 KB.
+Paleta de comandos **Ctrl/⌘ + K** como Web Component. Funciona em qualquer stack (React, Vue, Next.js, PHP, HTML puro), sem dependências e com ~13 KB de código-fonte sem minificar.
 
 - **Busca fuzzy em português**: `cobranca` encontra "Emitir cobrança", `nl` encontra "**N**ovo **l**ead"
 - **Acessível**: `role="dialog"`, combobox e listbox com `aria-activedescendant`; o foco fica preso no diálogo e volta para onde estava ao fechar
